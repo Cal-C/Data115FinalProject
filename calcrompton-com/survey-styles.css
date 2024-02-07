@@ -1,0 +1,18 @@
+.image-container { 
+    position: relative; 
+    /* Set width and height if needed */ 
+  } 
+   
+  .bottom-image, 
+  .top-image { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+  } 
+   
+  .top-image { 
+    z-index: 1; /* Places the top image above the bottom image */ 
+    /* Adjust positioning of the top image if needed */ 
+  }
+  .error {color: #FF0000;}
+  .thanks{color: green}
